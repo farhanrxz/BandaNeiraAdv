@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Neira Island</title>
+    <meta name="color-scheme" content="dark light">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+
+  /** Navbar **/
+  <nav id="navbar" class="">
+    <div class="nav-wrapper">
+      <div class="logo">
+        <a href="#home">
+          <p>Neira Island.</p>
+        </a>
+      </div>
+      <ul id="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#explore-now">Explore</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  /** Main content **/
+  
+  <div id="home" class="main-container first">
+    <div class="left-content">
+      <img src="neiramap.jpeg" alt="Banda Neira Map">
+    </div>
+    <div class="right-content">
+      <div class="main-text">
+       <?php echo"<p>Let's explore!</p>" ?> 
+      </div>
+      <div class="neira-pride">
+        <p class="neira-pride">Banda Neira, Maluku.</p>
+      </div>
+        <p class="sec-text">Sudah sejak lama Indonesia terkenal akan keindahan alam dan berbagai tempat bersejarahnya. Salah satunya kawasan wisata yang terletak di bagian Timur yaitu kepulauan Banda.</p>
+        <p class="sec-text">Banyak sekali berbagai tempat wisata di Banda Neira yang bisa kamu nikmati keindahannya dan juga mengandung nilai sejarah yang tinggi.</p>
+    </div>
+  </div>
+
+  <div id="explore-now" class="scrollto-neira">
+   <?php echo"<p>▼ Scroll for more about banda neira! ▼</p>" ?> 
+  </div>
+ 
+  <div class="main-container second">
+    <div class="leftsub-content">
+       <p class="title-second">Did U Know?</p>
+        <p class="sec-text"><span class="badge">1</span>Banda Neira pernah menjadi pusat perdagangan pala dan fuli dunia, karena Kepulauan Banda adalah satu-satunya sumber rempah-rempah yang bernilai tinggi hingga pertengahan abad ke-19.</p>
+        <p class="sec-text"><span class="badge">2</span>Banda Neira juga dikenal karena keindahan dan kekayaan alamnya, terutama panorama bawah lautnya.</p>
+        <p class="sec-text"><span class="badge">3</span>Keindahan Banda Neira tidak hanya diabadikan di berbagai cerita, namun juga di uang rupiah. Pada uang kertas pecahan Rp 1.000 emisi 2016 terdapat gambar dari Banda Neira yang terletak pada bagian belakang.</p>
+    </div>
+    <div class="rightsub-content">
+      <div class="quotes">
+      <?php echo"<q>Jangan mati sebelum ke Banda Neira</q>" ?>  
+      <?php echo"<p>- Sutan Sjahrir</p>" ?>  
+      </div>
+      <img src="sutansjahrir.jpg" alt="">
+    </div>
+  </div>
+
+  <p class="title-second heading">Historic Buildings</p>
+
+  <div class="main-container">
+    <div class="build-desc">
+      <p class="subheading"><a href="belgica.php"><span class="badge">1</span> Benteng Belgica <i>(Fort Belgica).</i></a></p>
+      <p class="sec-text">Benteng Belgica pada awalnya adalah sebuah benteng yang dibangun oleh bangsa Portugis pada abad ke-16. Benteng ini dibangun dengan tujuan untuk menghadapi perlawanan masyarakat Banda yang menentang monopoli perdagangan pala oleh VOC. Meski terkesan usang, Benteng ini masih berdiri kokoh dengan pesona dan aura megah yang tak pernah luntur.</p>
+    </div>
+    <div class="build-img">
+      <img src="fortbelgicafix.webp" alt="">
+    </div>
+  </div>
+  <div class="main-container">
+    <div class="build-desc">
+      <p class="subheading"><span class="badge">2</span> Rumah Pengasingan Bung Hatta.</i></p>
+      <p class="sec-text">Merupakan tempat Mohammad Hatta menjalani hukuman pengasingan sebagai tahanan politik selama 6 tahun (1936 - 1942) di Banda Neira, kini di Kabupaten Maluku Tengah, Maluku. Ia bersama dengan tokoh nasional lain bernama Sutan Sjahrir juga diasingkan dekat rumah pengasingan Bung Hatta yang sekarang dikenal sebagai Rumah Pengasingan Bung Sjahrir.</p>
+    </div>
+    <div class="build-img">
+      <img src="pengasinganbunghatta.jpeg" alt="">
+    </div>
+  </div>
+  <div class="main-container">
+    <div class="build-desc">
+      <p class="subheading"><span class="badge">3</span> Gereja Tua Banda Neira.</i></p>
+      <p class="sec-text">Gereja Tua Banda Neira adalah salah satu gereja tertua di Kepulauan Banda yang diresmikan pada 23 Mei 1875 oleh 2 orang misionaris Belanda yaitu Maurits Lantzius dan John Hoeke.
+        Menariknya, gereja ini, dibangun di atas 30 makam prajurit berpangkat tinggi Belanda yang kalah dalam perang penaklukkan Pulau Banda.</p>
+    </div>
+    <div class="build-img">
+      <img src="gerejatua.jpg" alt="">
+    </div>
+  </div>
+  <div id="show"></div>
+  <div id="more">
+  <div class="main-container">
+    <div class="build-desc">
+      <p class="subheading"><span class="badge">4</span> Rumah Budaya Banda.</i></p>
+      <p class="sec-text">Di Rumah Budaya Banda Neira, kita dapat mengetahui kisah kelam tentang pulau yang dulu pernah diperebutkan bangsa Eropa karena kekayaan rempah-rempahnya dan bisa menemukan catatan sejarah penjajahan Belanda melalui VOC dari lukisan maupun benda-benda yang tersimpan disana seperti senjata perang seperti meriam, senapan kuno, dan benda bersejarah lainnya.</p>
+    </div>
+    <div class="build-img">
+      <img src="rumahbudayabanda.jpg" alt="">
+    </div>
+  </div>
+  <div class="main-container">
+    <div class="build-desc">
+      <p class="subheading"><a href="nassau.php"><span class="badge">5</span> Benteng Nassau (Fort Nassau).</i></a></p>
+      <p class="sec-text">Benteng Nassau merupakan benteng pertama di Banda Neira sejak tahun 1600-an. Bangunannya dibuat di atas bekas pondasi benteng Portugis yang pernah berkuasa di Banda Neira. Selain itu, benteng ini dibangun bertujuan untuk mengatur perdagangan pala yang pada waktu itu hanya ada di Kepulauan Banda. </p>
+    </div>
+    <div class="build-img">
+      <img src="bentengnassau.png" alt="">
+    </div>
+  </div>
+  <div class="main-container">
+    <div class="build-desc">
+      <p class="subheading"><span class="badge">6</span> Rumah Pengasingan Sutan Sjahrir.</i></p>
+      <p class="sec-text">Sebelum digunakan sebagai rumah pengasingan, rumah ini dulunya merupakan milik seorang pemilik perkebunan pala yang sudah tidak ditinggali lagi dan kemudian disewa oleh Sutan Sjahrir untuk tempat tinggal selama pengasingan di Banda Neira.</p>
+    </div>
+    <div class="build-img">
+      <img src="rmhpengasingansutansjahrir.jpg" alt="">
+    </div>
+  </div>
+  <div class="main-container">
+    <div class="build-desc">
+      <p class="subheading"><span class="badge">7</span> Istana Mini Banda Neira.</i></p>
+      <p class="sec-text">Istana Mini Banda Neira sudah berdiri pada awal abad ke-19. 
+        Hal ini diketahui melalui catatan Belanda pada tahun 1846 yang menyebutkan bangunan ini didirikan untuk menggantikan rumah residen lama di dalam Benteng Nassau yang hampir roboh seluruhnya akibat gempa bumi besar pada tahun 1816.</p>
+    </div>
+    <div class="build-img">
+      <img src="istanamini.jpeg" alt="">
+    </div>
+  </div>
+  </div>
+  <div class="btn">
+    <button onclick="myFunction()" id="myBtn">Tampilkan semua informasi</button>
+  </div>
+
+  <p class="mid-fyi">Selama masa pengasingan, Moh. Hatta dan Sjahrir juga mengajar anak-anak sekitar pulau dengan membuka kelas sore. Beliau-beliau mengajarkan mulai dari aritmatika hingga bahasa Inggris. Pak Sjahrir mengajar anak-anak kecil, sedangkan Pak Hatta mengajar anak-anak yang lebih besar. Semua pelajaran diajarkan menggunakan bahasa Belanda. Selama proses pembelajaran terkadang kedua tokoh tersebut juga menanamkan nilai patriotisme.</p>
+
+  <div class="bg-sec">
+    <p class="title-second heading">Recreation area</p>
+
+    <div class="main-container">
+      <div class="build-desc">
+        <p class="subheading"><a href="nailaka.php"><span class="badge">1</span> Pulau Nailaka.</i></a></p>
+        <p class="sec-text">Pulau kecil yang tidak berpenghuni ini memiliki hamparan pasir putih yang bersih. Pesona dunia bawah lautnya juga akan membuat orang ingin terus menyelam di dalamnya dan pasir yang super putih bersih yang dimiliki Pulau ini membuatmu betah berjalan-jalan mengelilinginya. Lembutnya pasirnya, mampu memanjakan telapak kakimu. Ah, kenikmatan pijatan pasir pantai memang tak pernah bohong, ya.</p>
+      </div>
+      <div class="build-img">
+        <img src="pulaunailaka.jpg" alt="">
+      </div>
+    </div>
+    <div class="main-container">
+      <div class="build-desc">
+        <p class="subheading"><span class="badge">2</span> Pulau Pisang.</i></p>
+        <p class="sec-text">Pulau ini merupakan salah satu pulau terbaik untuk kamu bisa menikmati aktivitas snorkeling ataupun diving. Dengan alam bawah lautnya yang masih terjaga membuatnya seperti surga bagi para pecinta olahraga menyelam.</p>
+        <p class="sec-text fyi"><i><b>For your information,</b> pulau ini juga dikenal sebagai Pulau Syahrir yaitu karena dahulu Sutan Syahrir sering berkunjung ke pulau ini dalam masa pengasingan.</i></p>
+      </div>
+      <div class="build-img">
+        <img src="pulausyahrir.jpg" alt="">
+      </div>
+    </div>
+    <div class="main-container">
+      <div class="build-desc">
+        <p class="subheading"><span class="badge">3</span> Pulau Hatta.</i></p>
+        <p class="sec-text">Salah satu daya tarik dari pulau ini adalah sunset nya. Sunset di pulau ini terkenal akan keindahan gradasi warna jingganya yang memikat mata. Tentu akan sangat sayang untuk dilewatkan. Suasana yang tercipta saat matahari tenggelam ditambah dengan hembusan halus angin timur tentu akan menciptakan suasana tenang untuk dinikmati.</p>
+        <p class="sec-text fyi"><i><b>For your information,</b> Pulau ini dinamakan menurut Mohammad Hatta, salah satu proklamator Indonesia dan nama lama Pulau Hatta adalah Pulau Rozengain.</i></p>
+      </div>
+      <div class="build-img">
+        <img src="pulauhatta.jpeg" alt="">
+      </div>
+    </div>
+    <div id="show2"></div>
+    <div id="more2">
+    <div class="main-container">
+      <div class="build-desc">
+        <p class="subheading"><span class="badge">4</span> Gunung Api Banda.</i></p>
+        <p class="sec-text">Kamu bisa menemukan beragam flora dan fauna yang cantik dan juga menarik. <br> Selain itu, pemandangan dari atas gunung ini pastinya adorable banget! <br>Nama asli dari gunung ini sebenarnya adalah Gunung Ganapus, dan tergolong dalam gunung api yang masih aktif.</p>
+      </div>
+      <div class="build-img">
+        <img src="gunungapibanda.jpg" alt="">
+      </div>
+    </div>
+    <div class="main-container">
+      <div class="build-desc">
+        <p class="subheading"><span class="badge">5</span> Lava Flow.</i></p>
+        <p class="sec-text">Sesuai dengan namanya, Lava Flow tercipta setelah meletusnya gunung berapi yang kemudian mengakibatkan perairan tertutup dengan lava. Tetapi uniknya, karena letusan tersebut, vegetasi bawah air menjadi tumbuh dengan subur. <br> Lava Flow menjadi salah satu tempat snorkeling di Kepulauan Banda yang menyuguhkan biota laut yang menakjubkan.</p>
+      </div>
+      <div class="build-img">
+        <img src="lavaflow.jpg" alt="">
+      </div>
+    </div>
+    </div>
+    <div class="btn">
+      <button onclick="myFunction2()" id="myBtn2">Tampilkan semua informasi</button>
+    </div>
+  </div>
+  
+  <p class="title-second heading">About</p>
+  <footer id="about" class="about">
+    <div class="personal">
+      <img class="pfp" src="pfp.jpg" alt="Profile Picture">
+      <div>
+        <p class="name">Farhan Ramadhan</p>
+        <p class="npm">202143502139</p>
+      </div>
+    </div>
+    <div class="social">
+
+    </div>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
